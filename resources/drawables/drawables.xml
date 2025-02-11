@@ -1,0 +1,8 @@
+<drawables xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
+    <bitmap id="LauncherIcon" filename="launcher_icon.png" />
+    <bitmap id="Background_240" filename="GBGVarvet_240x240.png"/>
+    <bitmap id="Background_260" filename="GBGVarvet_260x260.png"/>
+    <bitmap id="Background_280" filename="GBGVarvet_280x280.png"/>
+    <bitmap id="Background_320" filename="GBGVarvet_320x320.png"/>
+    <bitmap id="Background_454" filename="GBGVarvet_454x454.png"/>
+</drawables>

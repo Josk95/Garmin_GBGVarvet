@@ -1,0 +1,705 @@
+[ @file = "C:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet25\source\GBGVarvet25View.mc"; @line = 1; ]
+import Toybox.Graphics;
+[ @file = "C:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet25\source\GBGVarvet25View.mc"; @line = 2; ]
+import Toybox.Lang;
+[ @file = "C:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet25\source\GBGVarvet25View.mc"; @line = 3; ]
+import Toybox.System;
+[ @file = "C:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet25\source\GBGVarvet25View.mc"; @line = 4; ]
+import Toybox.WatchUi;
+[ @file = "C:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet25\source\GBGVarvet25View.mc"; @line = 5; ]
+using Toybox.Time;
+[ @file = "C:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet25\source\GBGVarvet25View.mc"; @line = 6; ]
+using Toybox.Math;
+[ @file = "C:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet25\source\GBGVarvet25View.mc"; @line = 8; ]
+class GBGVarvet25View extends WatchUi.WatchFace{
+    [ @file = "C:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet25\source\GBGVarvet25View.mc"; @line = 8; ]
+    <init> {
+    }
+    [ @file = "C:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet25\source\GBGVarvet25View.mc"; @line = 8; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet25\source\GBGVarvet25View.mc"; @line = 9; @position = 8; ]
+    var targetDate;
+    [ @file = "C:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet25\source\GBGVarvet25View.mc"; @line = 10; @position = 8; ]
+    var inspirationalMessages;
+    [ @file = "C:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet25\source\GBGVarvet25View.mc"; @line = 11; @position = 8; ]
+    var currentMessageIndex;
+    [ @file = "C:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet25\source\GBGVarvet25View.mc"; @line = 12; @position = 8; ]
+    var lastUpdateTime;
+    [ @file = "C:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet25\source\GBGVarvet25View.mc"; @line = 15; ]
+    function initialize() as Void {
+C_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet25_source_GBGVarvet25View_mc_15_26_42_4_start:
+[ "C:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet25\source\GBGVarvet25View.mc" 16 8 ]
+        %tmp.2 = getv ? :WatchFace;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+[ "C:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet25\source\GBGVarvet25View.mc" 18 8 ]
+        %tmp.4 = getm $.Toybox.Time;
+        %tmp.5 = getv %tmp.4 :Gregorian;
+        %tmp.6 = getv function %tmp.5 :moment;
+        %tmp.7 = newd 6;
+        %tmp.9 = const :year;
+        %tmp.10 = 2025;
+        %tmp.11 = dup %tmp.7;
+        %tmp.12 = aputv %tmp.11 %tmp.9 %tmp.10;
+        %tmp.14 = const :month;
+        %tmp.15 = 5;
+        %tmp.16 = dup %tmp.12;
+        %tmp.17 = aputv %tmp.16 %tmp.14 %tmp.15;
+        %tmp.19 = const :day;
+        %tmp.20 = 17;
+        %tmp.21 = dup %tmp.17;
+        %tmp.22 = aputv %tmp.21 %tmp.19 %tmp.20;
+        %tmp.24 = const :hour;
+        %tmp.25 = 0;
+        %tmp.26 = dup %tmp.22;
+        %tmp.27 = aputv %tmp.26 %tmp.24 %tmp.25;
+        %tmp.29 = const :minute;
+        %tmp.30 = 0;
+        %tmp.31 = dup %tmp.27;
+        %tmp.32 = aputv %tmp.31 %tmp.29 %tmp.30;
+        %tmp.34 = const :second;
+        %tmp.35 = 0;
+        %tmp.36 = dup %tmp.32;
+        %tmp.37 = aputv %tmp.36 %tmp.34 %tmp.35;
+        %tmp.38 = invoke %tmp.5 %tmp.6(%tmp.37);
+        putv self :targetDate %tmp.38;
+[ "C:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet25\source\GBGVarvet25View.mc" 28 8 ]
+        %tmp.39 = newa 9;
+        %tmp.40 = "You've Got This!";
+        %tmp.41 = dup %tmp.39;
+        %tmp.42 = aputv %tmp.41 0 %tmp.40;
+        %tmp.43 = "Time to Shine!";
+        %tmp.44 = dup %tmp.42;
+        %tmp.45 = aputv %tmp.44 1 %tmp.43;
+        %tmp.46 = "Make History Today!";
+        %tmp.47 = dup %tmp.45;
+        %tmp.48 = aputv %tmp.47 2 %tmp.46;
+        %tmp.49 = "Trust Your Training!";
+        %tmp.50 = dup %tmp.48;
+        %tmp.51 = aputv %tmp.50 3 %tmp.49;
+        %tmp.52 = "Strong & Ready!";
+        %tmp.53 = dup %tmp.51;
+        %tmp.54 = aputv %tmp.53 4 %tmp.52;
+        %tmp.55 = "Feel the Energy!";
+        %tmp.56 = dup %tmp.54;
+        %tmp.57 = aputv %tmp.56 5 %tmp.55;
+        %tmp.58 = "Embrace the Challenge!";
+        %tmp.59 = dup %tmp.57;
+        %tmp.60 = aputv %tmp.59 6 %tmp.58;
+        %tmp.61 = "Your Day to Conquer!";
+        %tmp.62 = dup %tmp.60;
+        %tmp.63 = aputv %tmp.62 7 %tmp.61;
+        %tmp.64 = "Run with Heart!";
+        %tmp.65 = dup %tmp.63;
+        %tmp.66 = aputv %tmp.65 8 %tmp.64;
+        putv self :inspirationalMessages %tmp.66;
+[ "C:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet25\source\GBGVarvet25View.mc" 40 8 ]
+        %tmp.67 = 0;
+        putv self :currentMessageIndex %tmp.67;
+[ "C:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet25\source\GBGVarvet25View.mc" 41 8 ]
+        %tmp.68 = getm $.Toybox.System;
+        %tmp.69 = getv function %tmp.68 :getTimer;
+        %tmp.70 = invoke %tmp.68 %tmp.69();
+        putv self :lastUpdateTime %tmp.70;
+C_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet25_source_GBGVarvet25View_mc_15_26_42_4_stop:
+    }
+    [ @file = "C:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet25\source\GBGVarvet25View.mc"; @line = 44; ]
+    function onLayout(dc as Dc) as Void {
+C_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet25_source_GBGVarvet25View_mc_44_40_46_4_start:
+[ "C:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet25\source\GBGVarvet25View.mc" 45 8 ]
+        %tmp.1 = self;
+        %tmp.2 = getv function %tmp.1 :setLayout;
+        %tmp.4 = getv ? :Rez;
+        %tmp.5 = getv %tmp.4 :Layouts;
+        %tmp.6 = getv function %tmp.5 :WatchFace;
+        %tmp.8 = lgetv %dc;
+        %tmp.9 = invoke %tmp.5 %tmp.6(%tmp.8);
+        invoke %tmp.1 %tmp.2(%tmp.9);
+C_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet25_source_GBGVarvet25View_mc_44_40_46_4_stop:
+    }
+    [ @file = "C:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet25\source\GBGVarvet25View.mc"; @line = 48; ]
+    function onShow() as Void {
+    }
+    [ @file = "C:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet25\source\GBGVarvet25View.mc"; @line = 51; ]
+    function onUpdate(dc) {
+C_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet25_source_GBGVarvet25View_mc_51_26_209_4_start:
+[ "C:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet25\source\GBGVarvet25View.mc" 53 8 ]
+        %tmp.1 = lgetv %dc;
+        %tmp.2 = getv function %tmp.1 :setColor;
+        %tmp.3 = getm $.Toybox.Graphics;
+        %tmp.4 = getv %tmp.3 :COLOR_BLACK;
+        %tmp.5 = getm $.Toybox.Graphics;
+        %tmp.6 = getv %tmp.5 :COLOR_BLACK;
+        invoke %tmp.1 %tmp.2(%tmp.4, %tmp.6);
+[ "C:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet25\source\GBGVarvet25View.mc" 54 8 ]
+        %tmp.7 = lgetv %dc;
+        %tmp.8 = getv function %tmp.7 :clear;
+        invoke %tmp.7 %tmp.8();
+[ "C:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet25\source\GBGVarvet25View.mc" 58 8 ]
+        [ "C_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet25_source_GBGVarvet25View_mc_51_26_209_4_start" "C_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet25_source_GBGVarvet25View_mc_51_26_209_4_stop" ]
+        %width.1 = local;
+        %tmp.9 = lgetv %dc;
+        %tmp.10 = getv function %tmp.9 :getWidth;
+        %tmp.11 = invoke %tmp.9 %tmp.10();
+        lputv %width.1 %tmp.11;
+[ "C:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet25\source\GBGVarvet25View.mc" 59 8 ]
+        [ "C_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet25_source_GBGVarvet25View_mc_51_26_209_4_start" "C_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet25_source_GBGVarvet25View_mc_51_26_209_4_stop" ]
+        %height.2 = local;
+        %tmp.12 = lgetv %dc;
+        %tmp.13 = getv function %tmp.12 :getHeight;
+        %tmp.14 = invoke %tmp.12 %tmp.13();
+        lputv %height.2 %tmp.14;
+[ "C:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet25\source\GBGVarvet25View.mc" 62 8 ]
+        [ "C_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet25_source_GBGVarvet25View_mc_51_26_209_4_start" "C_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet25_source_GBGVarvet25View_mc_51_26_209_4_stop" ]
+        %background.3 = local;
+[ "C:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet25\source\GBGVarvet25View.mc" 64 8 ]
+C_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet25_source_GBGVarvet25View_mc_64_8_74_8_if_stmt:
+        %tmp.16 = lgetv %width.1;
+        %tmp.17 = 240;
+        %tmp.18 = lte %tmp.16 %tmp.17;
+        bf %tmp.18 @C_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet25_source_GBGVarvet25View_mc_64_8_74_8_if_false;
+C_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet25_source_GBGVarvet25View_mc_64_8_74_8_if_true:
+C_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet25_source_GBGVarvet25View_mc_64_26_66_8_start:
+[ "C:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet25\source\GBGVarvet25View.mc" 65 12 ]
+        %tmp.20 = getv ? :Application;
+        %tmp.21 = getv function %tmp.20 :loadResource;
+        %tmp.23 = getv ? :Rez;
+        %tmp.24 = getv %tmp.23 :Drawables;
+        %tmp.25 = getv %tmp.24 :Background_240;
+        %tmp.26 = invoke %tmp.20 %tmp.21(%tmp.25);
+        lputv %background.3 %tmp.26;
+C_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet25_source_GBGVarvet25View_mc_64_26_66_8_stop:
+        goto @C_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet25_source_GBGVarvet25View_mc_64_8_74_8_if_end;
+C_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet25_source_GBGVarvet25View_mc_64_8_74_8_if_false:
+[ "C:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet25\source\GBGVarvet25View.mc" 66 15 ]
+C_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet25_source_GBGVarvet25View_mc_66_15_74_8_if_stmt:
+        %tmp.28 = lgetv %width.1;
+        %tmp.29 = 260;
+        %tmp.30 = lte %tmp.28 %tmp.29;
+        bf %tmp.30 @C_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet25_source_GBGVarvet25View_mc_66_15_74_8_if_false;
+C_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet25_source_GBGVarvet25View_mc_66_15_74_8_if_true:
+C_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet25_source_GBGVarvet25View_mc_66_33_68_8_start:
+[ "C:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet25\source\GBGVarvet25View.mc" 67 12 ]
+        %tmp.32 = getv ? :Application;
+        %tmp.33 = getv function %tmp.32 :loadResource;
+        %tmp.35 = getv ? :Rez;
+        %tmp.36 = getv %tmp.35 :Drawables;
+        %tmp.37 = getv %tmp.36 :Background_260;
+        %tmp.38 = invoke %tmp.32 %tmp.33(%tmp.37);
+        lputv %background.3 %tmp.38;
+C_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet25_source_GBGVarvet25View_mc_66_33_68_8_stop:
+        goto @C_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet25_source_GBGVarvet25View_mc_66_15_74_8_if_end;
+C_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet25_source_GBGVarvet25View_mc_66_15_74_8_if_false:
+[ "C:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet25\source\GBGVarvet25View.mc" 68 15 ]
+C_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet25_source_GBGVarvet25View_mc_68_15_74_8_if_stmt:
+        %tmp.40 = lgetv %width.1;
+        %tmp.41 = 280;
+        %tmp.42 = lte %tmp.40 %tmp.41;
+        bf %tmp.42 @C_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet25_source_GBGVarvet25View_mc_68_15_74_8_if_false;
+C_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet25_source_GBGVarvet25View_mc_68_15_74_8_if_true:
+C_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet25_source_GBGVarvet25View_mc_68_33_70_8_start:
+[ "C:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet25\source\GBGVarvet25View.mc" 69 12 ]
+        %tmp.44 = getv ? :Application;
+        %tmp.45 = getv function %tmp.44 :loadResource;
+        %tmp.47 = getv ? :Rez;
+        %tmp.48 = getv %tmp.47 :Drawables;
+        %tmp.49 = getv %tmp.48 :Background_280;
+        %tmp.50 = invoke %tmp.44 %tmp.45(%tmp.49);
+        lputv %background.3 %tmp.50;
+C_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet25_source_GBGVarvet25View_mc_68_33_70_8_stop:
+        goto @C_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet25_source_GBGVarvet25View_mc_68_15_74_8_if_end;
+C_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet25_source_GBGVarvet25View_mc_68_15_74_8_if_false:
+[ "C:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet25\source\GBGVarvet25View.mc" 70 15 ]
+C_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet25_source_GBGVarvet25View_mc_70_15_74_8_if_stmt:
+        %tmp.52 = lgetv %width.1;
+        %tmp.53 = 320;
+        %tmp.54 = lte %tmp.52 %tmp.53;
+        bf %tmp.54 @C_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet25_source_GBGVarvet25View_mc_70_15_74_8_if_false;
+C_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet25_source_GBGVarvet25View_mc_70_15_74_8_if_true:
+C_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet25_source_GBGVarvet25View_mc_70_33_72_8_start:
+[ "C:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet25\source\GBGVarvet25View.mc" 71 12 ]
+        %tmp.56 = getv ? :Application;
+        %tmp.57 = getv function %tmp.56 :loadResource;
+        %tmp.59 = getv ? :Rez;
+        %tmp.60 = getv %tmp.59 :Drawables;
+        %tmp.61 = getv %tmp.60 :Background_320;
+        %tmp.62 = invoke %tmp.56 %tmp.57(%tmp.61);
+        lputv %background.3 %tmp.62;
+C_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet25_source_GBGVarvet25View_mc_70_33_72_8_stop:
+        goto @C_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet25_source_GBGVarvet25View_mc_70_15_74_8_if_end;
+C_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet25_source_GBGVarvet25View_mc_70_15_74_8_if_false:
+C_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet25_source_GBGVarvet25View_mc_72_15_74_8_start:
+[ "C:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet25\source\GBGVarvet25View.mc" 73 12 ]
+        %tmp.64 = getv ? :Application;
+        %tmp.65 = getv function %tmp.64 :loadResource;
+        %tmp.67 = getv ? :Rez;
+        %tmp.68 = getv %tmp.67 :Drawables;
+        %tmp.69 = getv %tmp.68 :Background_454;
+        %tmp.70 = invoke %tmp.64 %tmp.65(%tmp.69);
+        lputv %background.3 %tmp.70;
+C_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet25_source_GBGVarvet25View_mc_72_15_74_8_stop:
+C_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet25_source_GBGVarvet25View_mc_70_15_74_8_if_end:
+C_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet25_source_GBGVarvet25View_mc_68_15_74_8_if_end:
+C_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet25_source_GBGVarvet25View_mc_66_15_74_8_if_end:
+C_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet25_source_GBGVarvet25View_mc_64_8_74_8_if_end:
+[ "C:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet25\source\GBGVarvet25View.mc" 78 8 ]
+        %tmp.71 = lgetv %dc;
+        %tmp.72 = getv function %tmp.71 :drawBitmap;
+        %tmp.73 = 0;
+        %tmp.74 = 0;
+        %tmp.76 = lgetv %background.3;
+        invoke %tmp.71 %tmp.72(%tmp.73, %tmp.74, %tmp.76);
+[ "C:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet25\source\GBGVarvet25View.mc" 81 9 ]
+        [ "C_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet25_source_GBGVarvet25View_mc_51_26_209_4_start" "C_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet25_source_GBGVarvet25View_mc_51_26_209_4_stop" ]
+        %currentTimeUTC.4 = local;
+        %tmp.77 = getm $.Toybox.Time;
+        %tmp.78 = getv function %tmp.77 :now;
+        %tmp.79 = invoke %tmp.77 %tmp.78();
+        lputv %currentTimeUTC.4 %tmp.79;
+[ "C:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet25\source\GBGVarvet25View.mc" 83 8 ]
+        [ "C_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet25_source_GBGVarvet25View_mc_51_26_209_4_start" "C_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet25_source_GBGVarvet25View_mc_51_26_209_4_stop" ]
+        %duration.5 = local;
+        %tmp.81 = getv ? :targetDate;
+        %tmp.82 = getv function %tmp.81 :subtract;
+        %tmp.84 = lgetv %currentTimeUTC.4;
+        %tmp.85 = invoke %tmp.81 %tmp.82(%tmp.84);
+        lputv %duration.5 %tmp.85;
+[ "C:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet25\source\GBGVarvet25View.mc" 84 8 ]
+        [ "C_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet25_source_GBGVarvet25View_mc_51_26_209_4_start" "C_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet25_source_GBGVarvet25View_mc_51_26_209_4_stop" ]
+        %timeRemaining.6 = local;
+        %tmp.86 = lgetv %duration.5;
+        %tmp.87 = getv function %tmp.86 :value;
+        %tmp.88 = invoke %tmp.86 %tmp.87();
+        lputv %timeRemaining.6 %tmp.88;
+[ "C:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet25\source\GBGVarvet25View.mc" 87 8 ]
+        [ "C_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet25_source_GBGVarvet25View_mc_51_26_209_4_start" "C_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet25_source_GBGVarvet25View_mc_51_26_209_4_stop" ]
+        %currentInfo.7 = local;
+        %tmp.89 = getm $.Toybox.Time;
+        %tmp.90 = getv %tmp.89 :Gregorian;
+        %tmp.91 = getv function %tmp.90 :info;
+        %tmp.93 = lgetv %currentTimeUTC.4;
+        %tmp.94 = getm $.Toybox.Time;
+        %tmp.95 = getv %tmp.94 :FORMAT_SHORT;
+        %tmp.96 = invoke %tmp.90 %tmp.91(%tmp.93, %tmp.95);
+        lputv %currentInfo.7 %tmp.96;
+[ "C:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet25\source\GBGVarvet25View.mc" 88 8 ]
+        [ "C_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet25_source_GBGVarvet25View_mc_51_26_209_4_start" "C_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet25_source_GBGVarvet25View_mc_51_26_209_4_stop" ]
+        %targetInfo.8 = local;
+        %tmp.97 = getm $.Toybox.Time;
+        %tmp.98 = getv %tmp.97 :Gregorian;
+        %tmp.99 = getv function %tmp.98 :info;
+        %tmp.101 = getv ? :targetDate;
+        %tmp.102 = getm $.Toybox.Time;
+        %tmp.103 = getv %tmp.102 :FORMAT_SHORT;
+        %tmp.104 = invoke %tmp.98 %tmp.99(%tmp.101, %tmp.103);
+        lputv %targetInfo.8 %tmp.104;
+[ "C:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet25\source\GBGVarvet25View.mc" 92 8 ]
+        [ "C_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet25_source_GBGVarvet25View_mc_51_26_209_4_start" "C_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet25_source_GBGVarvet25View_mc_51_26_209_4_stop" ]
+        %isRaceDay.9 = local;
+        %tmp.105 = lgetv %currentInfo.7;
+        %tmp.106 = getv %tmp.105 :year;
+        %tmp.107 = 10000;
+        %tmp.108 = mul %tmp.106 %tmp.107;
+        %tmp.109 = lgetv %currentInfo.7;
+        %tmp.110 = getv %tmp.109 :month;
+        %tmp.111 = 100;
+        %tmp.112 = mul %tmp.110 %tmp.111;
+        %tmp.113 = add %tmp.108 %tmp.112;
+        %tmp.114 = lgetv %currentInfo.7;
+        %tmp.115 = getv %tmp.114 :day;
+        %tmp.116 = add %tmp.113 %tmp.115;
+        %tmp.117 = lgetv %targetInfo.8;
+        %tmp.118 = getv %tmp.117 :year;
+        %tmp.119 = 10000;
+        %tmp.120 = mul %tmp.118 %tmp.119;
+        %tmp.121 = lgetv %targetInfo.8;
+        %tmp.122 = getv %tmp.121 :month;
+        %tmp.123 = 100;
+        %tmp.124 = mul %tmp.122 %tmp.123;
+        %tmp.125 = add %tmp.120 %tmp.124;
+        %tmp.126 = lgetv %targetInfo.8;
+        %tmp.127 = getv %tmp.126 :day;
+        %tmp.128 = add %tmp.125 %tmp.127;
+        %tmp.129 = gte %tmp.116 %tmp.128;
+        lputv %isRaceDay.9 %tmp.129;
+[ "C:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet25\source\GBGVarvet25View.mc" 95 8 ]
+C_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet25_source_GBGVarvet25View_mc_95_8_192_8_if_stmt:
+        %tmp.131 = lgetv %isRaceDay.9;
+        bf %tmp.131 @C_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet25_source_GBGVarvet25View_mc_95_8_192_8_if_false;
+C_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet25_source_GBGVarvet25View_mc_95_8_192_8_if_true:
+C_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet25_source_GBGVarvet25View_mc_95_23_124_8_start:
+[ "C:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet25\source\GBGVarvet25View.mc" 97 12 ]
+        [ "C_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet25_source_GBGVarvet25View_mc_95_23_124_8_start" "C_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet25_source_GBGVarvet25View_mc_95_23_124_8_stop" ]
+        %currentTimer.10 = local;
+        %tmp.132 = getm $.Toybox.System;
+        %tmp.133 = getv function %tmp.132 :getTimer;
+        %tmp.134 = invoke %tmp.132 %tmp.133();
+        lputv %currentTimer.10 %tmp.134;
+[ "C:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet25\source\GBGVarvet25View.mc" 100 12 ]
+C_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet25_source_GBGVarvet25View_mc_100_12_103_12_if_stmt:
+        %tmp.136 = lgetv %currentTimer.10;
+        %tmp.138 = getv ? :lastUpdateTime;
+        %tmp.139 = sub %tmp.136 %tmp.138;
+        %tmp.140 = 3000;
+        %tmp.141 = gt %tmp.139 %tmp.140;
+        bf %tmp.141 @C_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet25_source_GBGVarvet25View_mc_100_12_103_12_if_end;
+C_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet25_source_GBGVarvet25View_mc_100_12_103_12_if_true:
+C_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet25_source_GBGVarvet25View_mc_100_54_103_12_start:
+[ "C:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet25\source\GBGVarvet25View.mc" 101 16 ]
+        %tmp.143 = getv ? :currentMessageIndex;
+        %tmp.144 = 1;
+        %tmp.145 = add %tmp.143 %tmp.144;
+        %tmp.147 = getv ? :inspirationalMessages;
+        %tmp.148 = getv function %tmp.147 :size;
+        %tmp.149 = invoke %tmp.147 %tmp.148();
+        %tmp.150 = mod %tmp.145 %tmp.149;
+        putv self :currentMessageIndex %tmp.150;
+[ "C:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet25\source\GBGVarvet25View.mc" 102 16 ]
+        %tmp.152 = lgetv %currentTimer.10;
+        putv self :lastUpdateTime %tmp.152;
+C_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet25_source_GBGVarvet25View_mc_100_54_103_12_stop:
+        goto @C_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet25_source_GBGVarvet25View_mc_100_12_103_12_if_end;
+C_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet25_source_GBGVarvet25View_mc_100_12_103_12_if_end:
+[ "C:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet25\source\GBGVarvet25View.mc" 106 12 ]
+        %tmp.153 = lgetv %dc;
+        %tmp.154 = getv function %tmp.153 :setColor;
+        %tmp.155 = getm $.Toybox.Graphics;
+        %tmp.156 = getv %tmp.155 :COLOR_WHITE;
+        %tmp.157 = getm $.Toybox.Graphics;
+        %tmp.158 = getv %tmp.157 :COLOR_TRANSPARENT;
+        invoke %tmp.153 %tmp.154(%tmp.156, %tmp.158);
+[ "C:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet25\source\GBGVarvet25View.mc" 107 12 ]
+        %tmp.159 = lgetv %dc;
+        %tmp.160 = getv function %tmp.159 :drawText;
+        %tmp.161 = lgetv %dc;
+        %tmp.162 = getv function %tmp.161 :getWidth;
+        %tmp.163 = invoke %tmp.161 %tmp.162();
+        %tmp.164 = 2;
+        %tmp.165 = div %tmp.163 %tmp.164;
+        %tmp.166 = lgetv %dc;
+        %tmp.167 = getv function %tmp.166 :getHeight;
+        %tmp.168 = invoke %tmp.166 %tmp.167();
+        %tmp.169 = 0.18;
+        %tmp.170 = mul %tmp.168 %tmp.169;
+        %tmp.171 = getm $.Toybox.Graphics;
+        %tmp.172 = getv %tmp.171 :FONT_SMALL;
+        %tmp.173 = "RACE!";
+        %tmp.174 = getm $.Toybox.Graphics;
+        %tmp.175 = getv %tmp.174 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.159 %tmp.160(%tmp.165, %tmp.170, %tmp.172, %tmp.173, %tmp.175);
+[ "C:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet25\source\GBGVarvet25View.mc" 116 12 ]
+        %tmp.176 = lgetv %dc;
+        %tmp.177 = getv function %tmp.176 :setColor;
+        %tmp.178 = getm $.Toybox.Graphics;
+        %tmp.179 = getv %tmp.178 :COLOR_WHITE;
+        %tmp.180 = getm $.Toybox.Graphics;
+        %tmp.181 = getv %tmp.180 :COLOR_TRANSPARENT;
+        invoke %tmp.176 %tmp.177(%tmp.179, %tmp.181);
+[ "C:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet25\source\GBGVarvet25View.mc" 117 12 ]
+        %tmp.182 = lgetv %dc;
+        %tmp.183 = getv function %tmp.182 :drawText;
+        %tmp.184 = lgetv %dc;
+        %tmp.185 = getv function %tmp.184 :getWidth;
+        %tmp.186 = invoke %tmp.184 %tmp.185();
+        %tmp.187 = 2;
+        %tmp.188 = div %tmp.186 %tmp.187;
+        %tmp.189 = lgetv %dc;
+        %tmp.190 = getv function %tmp.189 :getHeight;
+        %tmp.191 = invoke %tmp.189 %tmp.190();
+        %tmp.192 = 0.4;
+        %tmp.193 = mul %tmp.191 %tmp.192;
+        %tmp.194 = getm $.Toybox.Graphics;
+        %tmp.195 = getv %tmp.194 :FONT_SMALL;
+        %tmp.197 = getv ? :inspirationalMessages;
+        %tmp.199 = getv ? :currentMessageIndex;
+        %tmp.200 = agetv %tmp.197 %tmp.199;
+        %tmp.201 = getm $.Toybox.Graphics;
+        %tmp.202 = getv %tmp.201 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.182 %tmp.183(%tmp.188, %tmp.193, %tmp.195, %tmp.200, %tmp.202);
+C_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet25_source_GBGVarvet25View_mc_95_23_124_8_stop:
+        goto @C_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet25_source_GBGVarvet25View_mc_95_8_192_8_if_end;
+C_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet25_source_GBGVarvet25View_mc_95_8_192_8_if_false:
+C_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet25_source_GBGVarvet25View_mc_124_15_192_8_start:
+[ "C:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet25\source\GBGVarvet25View.mc" 126 12 ]
+        [ "C_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet25_source_GBGVarvet25View_mc_124_15_192_8_start" "C_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet25_source_GBGVarvet25View_mc_124_15_192_8_stop" ]
+        %secondsInDay.11 = local;
+        %tmp.203 = 24;
+        %tmp.204 = 60;
+        %tmp.205 = mul %tmp.203 %tmp.204;
+        %tmp.206 = 60;
+        %tmp.207 = mul %tmp.205 %tmp.206;
+        lputv %secondsInDay.11 %tmp.207;
+[ "C:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet25\source\GBGVarvet25View.mc" 127 12 ]
+        [ "C_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet25_source_GBGVarvet25View_mc_124_15_192_8_start" "C_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet25_source_GBGVarvet25View_mc_124_15_192_8_stop" ]
+        %secondsInHour.12 = local;
+        %tmp.208 = 60;
+        %tmp.209 = 60;
+        %tmp.210 = mul %tmp.208 %tmp.209;
+        lputv %secondsInHour.12 %tmp.210;
+[ "C:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet25\source\GBGVarvet25View.mc" 128 12 ]
+        [ "C_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet25_source_GBGVarvet25View_mc_124_15_192_8_start" "C_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet25_source_GBGVarvet25View_mc_124_15_192_8_stop" ]
+        %secondsInMinute.13 = local;
+        %tmp.211 = 60;
+        lputv %secondsInMinute.13 %tmp.211;
+[ "C:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet25\source\GBGVarvet25View.mc" 130 12 ]
+        [ "C_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet25_source_GBGVarvet25View_mc_124_15_192_8_start" "C_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet25_source_GBGVarvet25View_mc_124_15_192_8_stop" ]
+        %totalSeconds.14 = local;
+        %tmp.213 = lgetv %timeRemaining.6;
+        lputv %totalSeconds.14 %tmp.213;
+[ "C:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet25\source\GBGVarvet25View.mc" 131 12 ]
+        [ "C_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet25_source_GBGVarvet25View_mc_124_15_192_8_start" "C_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet25_source_GBGVarvet25View_mc_124_15_192_8_stop" ]
+        %days.15 = local;
+        %tmp.215 = lgetv %totalSeconds.14;
+        %tmp.217 = lgetv %secondsInDay.11;
+        %tmp.218 = div %tmp.215 %tmp.217;
+        %tmp.219 = getv function %tmp.218 :toNumber;
+        %tmp.220 = invoke %tmp.218 %tmp.219();
+        lputv %days.15 %tmp.220;
+[ "C:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet25\source\GBGVarvet25View.mc" 132 12 ]
+        %tmp.222 = lgetv %totalSeconds.14;
+        %tmp.224 = lgetv %secondsInDay.11;
+        %tmp.225 = mod %tmp.222 %tmp.224;
+        lputv %totalSeconds.14 %tmp.225;
+[ "C:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet25\source\GBGVarvet25View.mc" 134 12 ]
+        [ "C_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet25_source_GBGVarvet25View_mc_124_15_192_8_start" "C_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet25_source_GBGVarvet25View_mc_124_15_192_8_stop" ]
+        %hours.16 = local;
+        %tmp.227 = lgetv %totalSeconds.14;
+        %tmp.229 = lgetv %secondsInHour.12;
+        %tmp.230 = div %tmp.227 %tmp.229;
+        %tmp.231 = getv function %tmp.230 :toNumber;
+        %tmp.232 = invoke %tmp.230 %tmp.231();
+        lputv %hours.16 %tmp.232;
+[ "C:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet25\source\GBGVarvet25View.mc" 135 12 ]
+        %tmp.234 = lgetv %totalSeconds.14;
+        %tmp.236 = lgetv %secondsInHour.12;
+        %tmp.237 = mod %tmp.234 %tmp.236;
+        lputv %totalSeconds.14 %tmp.237;
+[ "C:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet25\source\GBGVarvet25View.mc" 137 12 ]
+        [ "C_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet25_source_GBGVarvet25View_mc_124_15_192_8_start" "C_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet25_source_GBGVarvet25View_mc_124_15_192_8_stop" ]
+        %minutes.17 = local;
+        %tmp.239 = lgetv %totalSeconds.14;
+        %tmp.241 = lgetv %secondsInMinute.13;
+        %tmp.242 = div %tmp.239 %tmp.241;
+        %tmp.243 = getv function %tmp.242 :toNumber;
+        %tmp.244 = invoke %tmp.242 %tmp.243();
+        lputv %minutes.17 %tmp.244;
+[ "C:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet25\source\GBGVarvet25View.mc" 138 12 ]
+        [ "C_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet25_source_GBGVarvet25View_mc_124_15_192_8_start" "C_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet25_source_GBGVarvet25View_mc_124_15_192_8_stop" ]
+        %seconds.18 = local;
+        %tmp.246 = lgetv %totalSeconds.14;
+        %tmp.248 = lgetv %secondsInMinute.13;
+        %tmp.249 = mod %tmp.246 %tmp.248;
+        %tmp.250 = getv function %tmp.249 :toNumber;
+        %tmp.251 = invoke %tmp.249 %tmp.250();
+        lputv %seconds.18 %tmp.251;
+[ "C:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet25\source\GBGVarvet25View.mc" 142 12 ]
+        %tmp.252 = lgetv %dc;
+        %tmp.253 = getv function %tmp.252 :setColor;
+        %tmp.254 = getm $.Toybox.Graphics;
+        %tmp.255 = getv %tmp.254 :COLOR_WHITE;
+        %tmp.256 = getm $.Toybox.Graphics;
+        %tmp.257 = getv %tmp.256 :COLOR_TRANSPARENT;
+        invoke %tmp.252 %tmp.253(%tmp.255, %tmp.257);
+[ "C:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet25\source\GBGVarvet25View.mc" 143 12 ]
+        %tmp.258 = lgetv %dc;
+        %tmp.259 = getv function %tmp.258 :drawText;
+        %tmp.260 = lgetv %dc;
+        %tmp.261 = getv function %tmp.260 :getWidth;
+        %tmp.262 = invoke %tmp.260 %tmp.261();
+        %tmp.263 = 2;
+        %tmp.264 = div %tmp.262 %tmp.263;
+        %tmp.265 = lgetv %dc;
+        %tmp.266 = getv function %tmp.265 :getHeight;
+        %tmp.267 = invoke %tmp.265 %tmp.266();
+        %tmp.268 = 0.08;
+        %tmp.269 = mul %tmp.267 %tmp.268;
+        %tmp.270 = getm $.Toybox.Graphics;
+        %tmp.271 = getv %tmp.270 :FONT_MEDIUM;
+        %tmp.272 = lgetv %days.15;
+        %tmp.273 = getv function %tmp.272 :format;
+        %tmp.274 = "%d";
+        %tmp.275 = invoke %tmp.272 %tmp.273(%tmp.274);
+        %tmp.276 = getm $.Toybox.Graphics;
+        %tmp.277 = getv %tmp.276 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.258 %tmp.259(%tmp.264, %tmp.269, %tmp.271, %tmp.275, %tmp.277);
+[ "C:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet25\source\GBGVarvet25View.mc" 153 12 ]
+        %tmp.278 = lgetv %dc;
+        %tmp.279 = getv function %tmp.278 :setColor;
+        %tmp.280 = getm $.Toybox.Graphics;
+        %tmp.281 = getv %tmp.280 :COLOR_WHITE;
+        %tmp.282 = getm $.Toybox.Graphics;
+        %tmp.283 = getv %tmp.282 :COLOR_TRANSPARENT;
+        invoke %tmp.278 %tmp.279(%tmp.281, %tmp.283);
+[ "C:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet25\source\GBGVarvet25View.mc" 154 12 ]
+        %tmp.284 = lgetv %dc;
+        %tmp.285 = getv function %tmp.284 :drawText;
+        %tmp.286 = lgetv %dc;
+        %tmp.287 = getv function %tmp.286 :getWidth;
+        %tmp.288 = invoke %tmp.286 %tmp.287();
+        %tmp.289 = 2;
+        %tmp.290 = div %tmp.288 %tmp.289;
+        %tmp.291 = lgetv %dc;
+        %tmp.292 = getv function %tmp.291 :getHeight;
+        %tmp.293 = invoke %tmp.291 %tmp.292();
+        %tmp.294 = 0.20;
+        %tmp.295 = mul %tmp.293 %tmp.294;
+        %tmp.296 = getm $.Toybox.Graphics;
+        %tmp.297 = getv %tmp.296 :FONT_SMALL;
+        %tmp.298 = "DAYS";
+        %tmp.299 = getm $.Toybox.Graphics;
+        %tmp.300 = getv %tmp.299 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.284 %tmp.285(%tmp.290, %tmp.295, %tmp.297, %tmp.298, %tmp.300);
+[ "C:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet25\source\GBGVarvet25View.mc" 163 12 ]
+        [ "C_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet25_source_GBGVarvet25View_mc_124_15_192_8_start" "C_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet25_source_GBGVarvet25View_mc_124_15_192_8_stop" ]
+        %timeString.19 = local;
+        %tmp.301 = getm $.Toybox.Lang;
+        %tmp.302 = getv function %tmp.301 :format;
+        %tmp.303 = " $1$  $2$  $3$ ";
+        %tmp.304 = newa 3;
+        %tmp.305 = lgetv %hours.16;
+        %tmp.306 = getv function %tmp.305 :format;
+        %tmp.307 = "%02d";
+        %tmp.308 = invoke %tmp.305 %tmp.306(%tmp.307);
+        %tmp.309 = dup %tmp.304;
+        %tmp.310 = aputv %tmp.309 0 %tmp.308;
+        %tmp.311 = lgetv %minutes.17;
+        %tmp.312 = getv function %tmp.311 :format;
+        %tmp.313 = "%02d";
+        %tmp.314 = invoke %tmp.311 %tmp.312(%tmp.313);
+        %tmp.315 = dup %tmp.310;
+        %tmp.316 = aputv %tmp.315 1 %tmp.314;
+        %tmp.317 = lgetv %seconds.18;
+        %tmp.318 = getv function %tmp.317 :format;
+        %tmp.319 = "%02d";
+        %tmp.320 = invoke %tmp.317 %tmp.318(%tmp.319);
+        %tmp.321 = dup %tmp.316;
+        %tmp.322 = aputv %tmp.321 2 %tmp.320;
+        %tmp.323 = invoke %tmp.301 %tmp.302(%tmp.303, %tmp.322);
+        lputv %timeString.19 %tmp.323;
+[ "C:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet25\source\GBGVarvet25View.mc" 169 12 ]
+        %tmp.324 = lgetv %dc;
+        %tmp.325 = getv function %tmp.324 :setColor;
+        %tmp.326 = getm $.Toybox.Graphics;
+        %tmp.327 = getv %tmp.326 :COLOR_WHITE;
+        %tmp.328 = getm $.Toybox.Graphics;
+        %tmp.329 = getv %tmp.328 :COLOR_TRANSPARENT;
+        invoke %tmp.324 %tmp.325(%tmp.327, %tmp.329);
+[ "C:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet25\source\GBGVarvet25View.mc" 171 12 ]
+        %tmp.330 = lgetv %dc;
+        %tmp.331 = getv function %tmp.330 :drawText;
+        %tmp.332 = lgetv %dc;
+        %tmp.333 = getv function %tmp.332 :getWidth;
+        %tmp.334 = invoke %tmp.332 %tmp.333();
+        %tmp.335 = 2;
+        %tmp.336 = div %tmp.334 %tmp.335;
+        %tmp.337 = lgetv %dc;
+        %tmp.338 = getv function %tmp.337 :getHeight;
+        %tmp.339 = invoke %tmp.337 %tmp.338();
+        %tmp.340 = 0.4;
+        %tmp.341 = mul %tmp.339 %tmp.340;
+        %tmp.342 = getm $.Toybox.Graphics;
+        %tmp.343 = getv %tmp.342 :FONT_SMALL;
+        %tmp.345 = lgetv %timeString.19;
+        %tmp.346 = getm $.Toybox.Graphics;
+        %tmp.347 = getv %tmp.346 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.330 %tmp.331(%tmp.336, %tmp.341, %tmp.343, %tmp.345, %tmp.347);
+[ "C:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet25\source\GBGVarvet25View.mc" 180 12 ]
+        [ "C_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet25_source_GBGVarvet25View_mc_124_15_192_8_start" "C_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet25_source_GBGVarvet25View_mc_124_15_192_8_stop" ]
+        %labelsString.20 = local;
+        %tmp.348 = " hrs min sec";
+        lputv %labelsString.20 %tmp.348;
+[ "C:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet25\source\GBGVarvet25View.mc" 181 12 ]
+        %tmp.349 = lgetv %dc;
+        %tmp.350 = getv function %tmp.349 :drawText;
+        %tmp.351 = lgetv %dc;
+        %tmp.352 = getv function %tmp.351 :getWidth;
+        %tmp.353 = invoke %tmp.351 %tmp.352();
+        %tmp.354 = 2;
+        %tmp.355 = div %tmp.353 %tmp.354;
+        %tmp.356 = lgetv %dc;
+        %tmp.357 = getv function %tmp.356 :getHeight;
+        %tmp.358 = invoke %tmp.356 %tmp.357();
+        %tmp.359 = 0.5;
+        %tmp.360 = mul %tmp.358 %tmp.359;
+        %tmp.361 = getm $.Toybox.Graphics;
+        %tmp.362 = getv %tmp.361 :FONT_TINY;
+        %tmp.364 = lgetv %labelsString.20;
+        %tmp.365 = getm $.Toybox.Graphics;
+        %tmp.366 = getv %tmp.365 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.349 %tmp.350(%tmp.355, %tmp.360, %tmp.362, %tmp.364, %tmp.366);
+C_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet25_source_GBGVarvet25View_mc_124_15_192_8_stop:
+C_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet25_source_GBGVarvet25View_mc_95_8_192_8_if_end:
+[ "C:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet25\source\GBGVarvet25View.mc" 195 8 ]
+        [ "C_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet25_source_GBGVarvet25View_mc_51_26_209_4_start" "C_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet25_source_GBGVarvet25View_mc_51_26_209_4_stop" ]
+        %clockTime.21 = local;
+        %tmp.367 = getm $.Toybox.System;
+        %tmp.368 = getv function %tmp.367 :getClockTime;
+        %tmp.369 = invoke %tmp.367 %tmp.368();
+        lputv %clockTime.21 %tmp.369;
+[ "C:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet25\source\GBGVarvet25View.mc" 196 8 ]
+        [ "C_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet25_source_GBGVarvet25View_mc_51_26_209_4_start" "C_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet25_source_GBGVarvet25View_mc_51_26_209_4_stop" ]
+        %timeString.22 = local;
+        %tmp.370 = getm $.Toybox.Lang;
+        %tmp.371 = getv function %tmp.370 :format;
+        %tmp.372 = "$1$:$2$";
+        %tmp.373 = newa 2;
+        %tmp.374 = lgetv %clockTime.21;
+        %tmp.375 = getv %tmp.374 :hour;
+        %tmp.376 = getv function %tmp.375 :format;
+        %tmp.377 = "%02d";
+        %tmp.378 = invoke %tmp.375 %tmp.376(%tmp.377);
+        %tmp.379 = dup %tmp.373;
+        %tmp.380 = aputv %tmp.379 0 %tmp.378;
+        %tmp.381 = lgetv %clockTime.21;
+        %tmp.382 = getv %tmp.381 :min;
+        %tmp.383 = getv function %tmp.382 :format;
+        %tmp.384 = "%02d";
+        %tmp.385 = invoke %tmp.382 %tmp.383(%tmp.384);
+        %tmp.386 = dup %tmp.380;
+        %tmp.387 = aputv %tmp.386 1 %tmp.385;
+        %tmp.388 = invoke %tmp.370 %tmp.371(%tmp.372, %tmp.387);
+        lputv %timeString.22 %tmp.388;
+[ "C:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet25\source\GBGVarvet25View.mc" 201 8 ]
+        %tmp.389 = lgetv %dc;
+        %tmp.390 = getv function %tmp.389 :setColor;
+        %tmp.391 = getm $.Toybox.Graphics;
+        %tmp.392 = getv %tmp.391 :COLOR_WHITE;
+        %tmp.393 = getm $.Toybox.Graphics;
+        %tmp.394 = getv %tmp.393 :COLOR_TRANSPARENT;
+        invoke %tmp.389 %tmp.390(%tmp.392, %tmp.394);
+[ "C:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet25\source\GBGVarvet25View.mc" 202 8 ]
+        %tmp.395 = lgetv %dc;
+        %tmp.396 = getv function %tmp.395 :drawText;
+        %tmp.397 = lgetv %dc;
+        %tmp.398 = getv function %tmp.397 :getWidth;
+        %tmp.399 = invoke %tmp.397 %tmp.398();
+        %tmp.400 = 2;
+        %tmp.401 = div %tmp.399 %tmp.400;
+        %tmp.402 = lgetv %dc;
+        %tmp.403 = getv function %tmp.402 :getHeight;
+        %tmp.404 = invoke %tmp.402 %tmp.403();
+        %tmp.405 = 0.85;
+        %tmp.406 = mul %tmp.404 %tmp.405;
+        %tmp.407 = getm $.Toybox.Graphics;
+        %tmp.408 = getv %tmp.407 :FONT_SMALL;
+        %tmp.410 = lgetv %timeString.22;
+        %tmp.411 = getm $.Toybox.Graphics;
+        %tmp.412 = getv %tmp.411 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.395 %tmp.396(%tmp.401, %tmp.406, %tmp.408, %tmp.410, %tmp.412);
+C_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet25_source_GBGVarvet25View_mc_51_26_209_4_stop:
+    }
+    [ @file = "C:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet25\source\GBGVarvet25View.mc"; @line = 211; ]
+    function onHide() as Void {
+    }
+    [ @file = "C:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet25\source\GBGVarvet25View.mc"; @line = 214; ]
+    function onExitSleep() as Void {
+    }
+    [ @file = "C:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet25\source\GBGVarvet25View.mc"; @line = 217; ]
+    function onEnterSleep() as Void {
+    }
+}
+[ @file = "C:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet25\source\GBGVarvet25View.mc"; @line = 1; ]
+<init> {
+}
