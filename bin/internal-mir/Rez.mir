@@ -1,46 +1,46 @@
-[ @file = "c:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet2025\bin\gen\006-B3076-00\source\Rez.mcgen"; @line = 1; ]
+[ @file = "c:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet2025\bin\gen\006-B3077-00\source\Rez.mcgen"; @line = 1; ]
 import Toybox.Lang;
-[ @file = "c:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet2025\bin\gen\006-B3076-00\source\Rez.mcgen"; @line = 2; ]
+[ @file = "c:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet2025\bin\gen\006-B3077-00\source\Rez.mcgen"; @line = 2; ]
 using Toybox.WatchUi;
-[ @file = "c:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet2025\bin\gen\006-B3076-00\source\Rez.mcgen"; @line = 3; ]
+[ @file = "c:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet2025\bin\gen\006-B3077-00\source\Rez.mcgen"; @line = 3; ]
 using Toybox.WatchUi as :Ui;
-[ @file = "c:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet2025\bin\gen\006-B3076-00\source\Rez.mcgen"; @line = 4; ]
+[ @file = "c:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet2025\bin\gen\006-B3077-00\source\Rez.mcgen"; @line = 4; ]
 using Toybox.Graphics;
-[ @file = "c:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet2025\bin\gen\006-B3076-00\source\Rez.mcgen"; @line = 5; ]
+[ @file = "c:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet2025\bin\gen\006-B3077-00\source\Rez.mcgen"; @line = 5; ]
 using Toybox.Graphics as :Gfx;
-[ @file = "c:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet2025\bin\gen\006-B3076-00\source\Rez.mcgen"; @line = 7; ]
+[ @file = "c:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet2025\bin\gen\006-B3077-00\source\Rez.mcgen"; @line = 7; ]
 module Rez {
-    [ @file = "c:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet2025\bin\gen\006-B3076-00\source\Rez.mcgen"; @line = 7; ]
+    [ @file = "c:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet2025\bin\gen\006-B3077-00\source\Rez.mcgen"; @line = 7; ]
     <init> {
     }
-    [ @file = "c:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet2025\bin\gen\006-B3076-00\source\Rez.mcgen"; @line = 8; ]
+    [ @file = "c:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet2025\bin\gen\006-B3077-00\source\Rez.mcgen"; @line = 8; ]
     module Drawables {
-        [ @file = "c:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet2025\bin\gen\006-B3076-00\source\Rez.mcgen"; @line = 8; ]
+        [ @file = "c:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet2025\bin\gen\006-B3077-00\source\Rez.mcgen"; @line = 8; ]
         <init> {
         }
-        [ @file = "c:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet2025\bin\gen\006-B3076-00\source\Rez.mcgen"; @line = 9; @position = 27; initialized = true; ]
+        [ @file = "c:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet2025\bin\gen\006-B3077-00\source\Rez.mcgen"; @line = 9; @position = 27; initialized = true; ]
         var Background_240 as ResourceId;
-        [ @file = "c:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet2025\bin\gen\006-B3076-00\source\Rez.mcgen"; @line = 10; @position = 27; initialized = true; ]
+        [ @file = "c:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet2025\bin\gen\006-B3077-00\source\Rez.mcgen"; @line = 10; @position = 27; initialized = true; ]
         var Background_260 as ResourceId;
-        [ @file = "c:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet2025\bin\gen\006-B3076-00\source\Rez.mcgen"; @line = 11; @position = 27; initialized = true; ]
+        [ @file = "c:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet2025\bin\gen\006-B3077-00\source\Rez.mcgen"; @line = 11; @position = 27; initialized = true; ]
         var Background_280 as ResourceId;
-        [ @file = "c:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet2025\bin\gen\006-B3076-00\source\Rez.mcgen"; @line = 12; @position = 27; initialized = true; ]
+        [ @file = "c:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet2025\bin\gen\006-B3077-00\source\Rez.mcgen"; @line = 12; @position = 27; initialized = true; ]
         var Background_320 as ResourceId;
-        [ @file = "c:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet2025\bin\gen\006-B3076-00\source\Rez.mcgen"; @line = 13; @position = 27; initialized = true; ]
+        [ @file = "c:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet2025\bin\gen\006-B3077-00\source\Rez.mcgen"; @line = 13; @position = 27; initialized = true; ]
         var Background_454 as ResourceId;
-        [ @file = "c:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet2025\bin\gen\006-B3076-00\source\Rez.mcgen"; @line = 14; @position = 27; initialized = true; ]
+        [ @file = "c:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet2025\bin\gen\006-B3077-00\source\Rez.mcgen"; @line = 14; @position = 27; initialized = true; ]
         var LauncherIcon as ResourceId;
     }
-    [ @file = "c:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet2025\bin\gen\006-B3076-00\source\Rez.mcgen"; @line = 17; ]
+    [ @file = "c:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet2025\bin\gen\006-B3077-00\source\Rez.mcgen"; @line = 17; ]
     module Layouts {
-        [ @file = "c:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet2025\bin\gen\006-B3076-00\source\Rez.mcgen"; @line = 17; ]
+        [ @file = "c:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet2025\bin\gen\006-B3077-00\source\Rez.mcgen"; @line = 17; ]
         <init> {
         }
-        [ @file = "c:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet2025\bin\gen\006-B3076-00\source\Rez.mcgen"; @line = 18; ]
+        [ @file = "c:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet2025\bin\gen\006-B3077-00\source\Rez.mcgen"; @line = 18; ]
         function WatchFace(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-c_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet2025_bin_gen_006_B3076_00_source_Rez_mcgen_18_73_22_8_start:
-[ "c:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet2025\bin\gen\006-B3076-00\source\Rez.mcgen" 19 12 ]
-            [ "c_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet2025_bin_gen_006_B3076_00_source_Rez_mcgen_18_73_22_8_start" "c_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet2025_bin_gen_006_B3076_00_source_Rez_mcgen_18_73_22_8_stop" ]
+c_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet2025_bin_gen_006_B3077_00_source_Rez_mcgen_18_73_22_8_start:
+[ "c:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet2025\bin\gen\006-B3077-00\source\Rez.mcgen" 19 12 ]
+            [ "c_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet2025_bin_gen_006_B3077_00_source_Rez_mcgen_18_73_22_8_start" "c_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet2025_bin_gen_006_B3077_00_source_Rez_mcgen_18_73_22_8_stop" ]
             %rez_cmp_local_text_TimeLabel.1 = local;
             %tmp.3 = getm $.Toybox.WatchUi;
             %tmp.4 = getv function ? %tmp.3 :Text;
@@ -84,24 +84,24 @@ c_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet2025_bin_gen_006_B3076_00_so
             %tmp.48 = aputv %tmp.47 %tmp.44 %tmp.46;
             %tmp.1 = newc %tmp.4 (%tmp.48);
             lputv %rez_cmp_local_text_TimeLabel.1 %tmp.1;
-[ "c:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet2025\bin\gen\006-B3076-00\source\Rez.mcgen" 21 12 ]
+[ "c:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet2025\bin\gen\006-B3077-00\source\Rez.mcgen" 21 12 ]
             %tmp.49 = newa 1 Array<WatchUi.Drawable>;
             %tmp.51 = lgetv %rez_cmp_local_text_TimeLabel.1;
             %tmp.52 = dup %tmp.49;
             %tmp.53 = aputv %tmp.52 0 %tmp.51;
             ret %tmp.53;
-c_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet2025_bin_gen_006_B3076_00_source_Rez_mcgen_18_73_22_8_stop:
+c_Users_Jonassk_develop_Garmin_watch_faces_GBGVarvet2025_bin_gen_006_B3077_00_source_Rez_mcgen_18_73_22_8_stop:
         }
     }
-    [ @file = "c:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet2025\bin\gen\006-B3076-00\source\Rez.mcgen"; @line = 25; ]
+    [ @file = "c:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet2025\bin\gen\006-B3077-00\source\Rez.mcgen"; @line = 25; ]
     module Strings {
-        [ @file = "c:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet2025\bin\gen\006-B3076-00\source\Rez.mcgen"; @line = 25; ]
+        [ @file = "c:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet2025\bin\gen\006-B3077-00\source\Rez.mcgen"; @line = 25; ]
         <init> {
         }
-        [ @file = "c:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet2025\bin\gen\006-B3076-00\source\Rez.mcgen"; @line = 26; @position = 27; initialized = true; ]
+        [ @file = "c:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet2025\bin\gen\006-B3077-00\source\Rez.mcgen"; @line = 26; @position = 27; initialized = true; ]
         var AppName as ResourceId;
     }
 }
-[ @file = "c:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet2025\bin\gen\006-B3076-00\source\Rez.mcgen"; @line = 1; ]
+[ @file = "c:\Users\Jonassk\develop\Garmin\watch_faces\GBGVarvet2025\bin\gen\006-B3077-00\source\Rez.mcgen"; @line = 1; ]
 <init> {
 }

@@ -5,239 +5,173 @@
 <entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="1" lineNum="8" parent="globals/GBGVarvet25View" pc="268435460" symbol="&lt;init&gt;"/>
 <entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25App.mc" id="2" lineNum="28" parent="globals" pc="268435479" symbol="getApp"/>
 <entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25App.mc" id="2" lineNum="29" parent="globals" pc="268435489" symbol="getApp"/>
-<entry filename="c:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\bin\\gen\\006-B3076-00\\source\\Rez.mcgen" id="3" lineNum="7" parent="globals/Rez" pc="268435505" symbol="&lt;init&gt;"/>
+<entry filename="c:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\bin\\gen\\006-B3077-00\\source\\Rez.mcgen" id="3" lineNum="7" parent="globals/Rez" pc="268435505" symbol="&lt;init&gt;"/>
 <entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25App.mc" id="4" lineNum="7" parent="globals/GBGVarvet25App" pc="268435529" symbol="&lt;init&gt;"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="6" lineNum="310" parent="globals/GBGVarvet25View" pc="268435548" symbol="getDaysInMonth"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="6" lineNum="311" parent="globals/GBGVarvet25View" pc="268435552" symbol="getDaysInMonth"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="6" lineNum="314" parent="globals/GBGVarvet25View" pc="268435716" symbol="getDaysInMonth"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="6" lineNum="315" parent="globals/GBGVarvet25View" pc="268435743" symbol="getDaysInMonth"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="6" lineNum="318" parent="globals/GBGVarvet25View" pc="268435752" symbol="getDaysInMonth"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="8" lineNum="44" parent="globals/GBGVarvet25View" pc="268435764" symbol="onLayout"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="8" lineNum="45" parent="globals/GBGVarvet25View" pc="268435766" symbol="onLayout"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="9" lineNum="272" parent="globals/GBGVarvet25View" pc="268435808" symbol="isDST"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="9" lineNum="273" parent="globals/GBGVarvet25View" pc="268435812" symbol="isDST"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="9" lineNum="276" parent="globals/GBGVarvet25View" pc="268435855" symbol="isDST"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="9" lineNum="277" parent="globals/GBGVarvet25View" pc="268435889" symbol="isDST"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="9" lineNum="281" parent="globals/GBGVarvet25View" pc="268435895" symbol="isDST"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="9" lineNum="282" parent="globals/GBGVarvet25View" pc="268435912" symbol="isDST"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="9" lineNum="283" parent="globals/GBGVarvet25View" pc="268435938" symbol="isDST"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="9" lineNum="287" parent="globals/GBGVarvet25View" pc="268435953" symbol="isDST"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="9" lineNum="288" parent="globals/GBGVarvet25View" pc="268435970" symbol="isDST"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="9" lineNum="289" parent="globals/GBGVarvet25View" pc="268435996" symbol="isDST"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="9" lineNum="292" parent="globals/GBGVarvet25View" pc="268436011" symbol="isDST"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="10" lineNum="321" parent="globals/GBGVarvet25View" pc="268436014" symbol="isLeapYear"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="10" lineNum="322" parent="globals/GBGVarvet25View" pc="268436016" symbol="isLeapYear"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="11" lineNum="295" parent="globals/GBGVarvet25View" pc="268436071" symbol="getLastSunday"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="11" lineNum="296" parent="globals/GBGVarvet25View" pc="268436075" symbol="getLastSunday"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="11" lineNum="298" parent="globals/GBGVarvet25View" pc="268436092" symbol="getLastSunday"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="11" lineNum="299" parent="globals/GBGVarvet25View" pc="268436110" symbol="getLastSunday"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="11" lineNum="300" parent="globals/GBGVarvet25View" pc="268436169" symbol="getLastSunday"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="11" lineNum="302" parent="globals/GBGVarvet25View" pc="268436199" symbol="getLastSunday"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="11" lineNum="303" parent="globals/GBGVarvet25View" pc="268436216" symbol="getLastSunday"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="11" lineNum="307" parent="globals/GBGVarvet25View" pc="268436235" symbol="getLastSunday"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="13" lineNum="15" parent="globals/GBGVarvet25View" pc="268436238" symbol="initialize"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="13" lineNum="16" parent="globals/GBGVarvet25View" pc="268436240" symbol="initialize"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="13" lineNum="18" parent="globals/GBGVarvet25View" pc="268436258" symbol="initialize"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="13" lineNum="28" parent="globals/GBGVarvet25View" pc="268436371" symbol="initialize"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="13" lineNum="40" parent="globals/GBGVarvet25View" pc="268436502" symbol="initialize"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="13" lineNum="41" parent="globals/GBGVarvet25View" pc="268436515" symbol="initialize"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="15" lineNum="51" parent="globals/GBGVarvet25View" pc="268436539" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="15" lineNum="53" parent="globals/GBGVarvet25View" pc="268436543" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="15" lineNum="55" parent="globals/GBGVarvet25View" pc="268436555" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="15" lineNum="56" parent="globals/GBGVarvet25View" pc="268436577" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="15" lineNum="60" parent="globals/GBGVarvet25View" pc="268436589" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="15" lineNum="61" parent="globals/GBGVarvet25View" pc="268436602" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="15" lineNum="66" parent="globals/GBGVarvet25View" pc="268436615" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="15" lineNum="67" parent="globals/GBGVarvet25View" pc="268436626" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="15" lineNum="68" parent="globals/GBGVarvet25View" pc="268436672" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="15" lineNum="69" parent="globals/GBGVarvet25View" pc="268436683" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="15" lineNum="70" parent="globals/GBGVarvet25View" pc="268436729" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="15" lineNum="71" parent="globals/GBGVarvet25View" pc="268436740" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="15" lineNum="72" parent="globals/GBGVarvet25View" pc="268436786" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="15" lineNum="73" parent="globals/GBGVarvet25View" pc="268436797" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="15" lineNum="75" parent="globals/GBGVarvet25View" pc="268436843" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="15" lineNum="80" parent="globals/GBGVarvet25View" pc="268436886" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="15" lineNum="82" parent="globals/GBGVarvet25View" pc="268436910" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="15" lineNum="83" parent="globals/GBGVarvet25View" pc="268436927" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="15" lineNum="86" parent="globals/GBGVarvet25View" pc="268436957" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="15" lineNum="87" parent="globals/GBGVarvet25View" pc="268436964" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="15" lineNum="88" parent="globals/GBGVarvet25View" pc="268436978" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="15" lineNum="92" parent="globals/GBGVarvet25View" pc="268436988" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="15" lineNum="95" parent="globals/GBGVarvet25View" pc="268437001" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="15" lineNum="96" parent="globals/GBGVarvet25View" pc="268437011" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="15" lineNum="97" parent="globals/GBGVarvet25View" pc="268437021" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="15" lineNum="99" parent="globals/GBGVarvet25View" pc="268437031" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="15" lineNum="100" parent="globals/GBGVarvet25View" pc="268437042" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="15" lineNum="101" parent="globals/GBGVarvet25View" pc="268437052" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="15" lineNum="105" parent="globals/GBGVarvet25View" pc="268437065" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="15" lineNum="106" parent="globals/GBGVarvet25View" pc="268437082" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="15" lineNum="107" parent="globals/GBGVarvet25View" pc="268437090" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="15" lineNum="108" parent="globals/GBGVarvet25View" pc="268437097" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="15" lineNum="111" parent="globals/GBGVarvet25View" pc="268437107" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="15" lineNum="112" parent="globals/GBGVarvet25View" pc="268437118" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="15" lineNum="113" parent="globals/GBGVarvet25View" pc="268437128" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="15" lineNum="117" parent="globals/GBGVarvet25View" pc="268437144" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="15" lineNum="126" parent="globals/GBGVarvet25View" pc="268437245" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="15" lineNum="128" parent="globals/GBGVarvet25View" pc="268437281" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="15" lineNum="139" parent="globals/GBGVarvet25View" pc="268437406" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="15" lineNum="140" parent="globals/GBGVarvet25View" pc="268437421" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="15" lineNum="142" parent="globals/GBGVarvet25View" pc="268437434" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="15" lineNum="144" parent="globals/GBGVarvet25View" pc="268437464" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="15" lineNum="147" parent="globals/GBGVarvet25View" pc="268437543" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="15" lineNum="149" parent="globals/GBGVarvet25View" pc="268437548" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="15" lineNum="152" parent="globals/GBGVarvet25View" pc="268437565" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="15" lineNum="153" parent="globals/GBGVarvet25View" pc="268437585" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="15" lineNum="154" parent="globals/GBGVarvet25View" pc="268437625" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="15" lineNum="158" parent="globals/GBGVarvet25View" pc="268437638" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="15" lineNum="159" parent="globals/GBGVarvet25View" pc="268437660" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="15" lineNum="168" parent="globals/GBGVarvet25View" pc="268437721" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="15" lineNum="169" parent="globals/GBGVarvet25View" pc="268437743" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="15" lineNum="178" parent="globals/GBGVarvet25View" pc="268437819" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="15" lineNum="179" parent="globals/GBGVarvet25View" pc="268437826" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="15" lineNum="180" parent="globals/GBGVarvet25View" pc="268437833" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="15" lineNum="182" parent="globals/GBGVarvet25View" pc="268437840" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="15" lineNum="183" parent="globals/GBGVarvet25View" pc="268437844" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="15" lineNum="184" parent="globals/GBGVarvet25View" pc="268437860" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="15" lineNum="186" parent="globals/GBGVarvet25View" pc="268437867" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="15" lineNum="187" parent="globals/GBGVarvet25View" pc="268437883" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="15" lineNum="189" parent="globals/GBGVarvet25View" pc="268437890" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="15" lineNum="190" parent="globals/GBGVarvet25View" pc="268437906" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="15" lineNum="194" parent="globals/GBGVarvet25View" pc="268437922" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="15" lineNum="195" parent="globals/GBGVarvet25View" pc="268437944" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="15" lineNum="205" parent="globals/GBGVarvet25View" pc="268438016" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="15" lineNum="206" parent="globals/GBGVarvet25View" pc="268438038" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="15" lineNum="215" parent="globals/GBGVarvet25View" pc="268438099" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="15" lineNum="221" parent="globals/GBGVarvet25View" pc="268438199" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="15" lineNum="223" parent="globals/GBGVarvet25View" pc="268438221" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="15" lineNum="232" parent="globals/GBGVarvet25View" pc="268438279" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="15" lineNum="233" parent="globals/GBGVarvet25View" pc="268438286" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="15" lineNum="247" parent="globals/GBGVarvet25View" pc="268438344" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="15" lineNum="248" parent="globals/GBGVarvet25View" pc="268438361" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="15" lineNum="253" parent="globals/GBGVarvet25View" pc="268438449" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="15" lineNum="254" parent="globals/GBGVarvet25View" pc="268438471" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25App.mc" id="16" lineNum="14" parent="globals/GBGVarvet25App" pc="268438530" symbol="onStart"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25App.mc" id="17" lineNum="22" parent="globals/GBGVarvet25App" pc="268438533" symbol="getInitialView"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25App.mc" id="17" lineNum="23" parent="globals/GBGVarvet25App" pc="268438535" symbol="getInitialView"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25App.mc" id="18" lineNum="9" parent="globals/GBGVarvet25App" pc="268438576" symbol="initialize"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25App.mc" id="18" lineNum="10" parent="globals/GBGVarvet25App" pc="268438578" symbol="initialize"/>
-<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25App.mc" id="19" lineNum="18" parent="globals/GBGVarvet25App" pc="268438597" symbol="onStop"/>
-<entry filename="c:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\bin\\gen\\006-B3076-00\\source\\Rez.mcgen" id="20" lineNum="18" parent="globals/Rez/Layouts" pc="268438600" symbol="WatchFace"/>
-<entry filename="c:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\bin\\gen\\006-B3076-00\\source\\Rez.mcgen" id="20" lineNum="19" parent="globals/Rez/Layouts" pc="268438612" symbol="WatchFace"/>
-<entry filename="c:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\bin\\gen\\006-B3076-00\\source\\Rez.mcgen" id="20" lineNum="21" parent="globals/Rez/Layouts" pc="268438747" symbol="WatchFace"/>
+<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="5" lineNum="66" parent="globals/GBGVarvet25View" pc="268435548" symbol="&lt;globals/GBGVarvet25View/&lt;&gt;loadAppropriateBackground&gt;"/>
+<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="5" lineNum="67" parent="globals/GBGVarvet25View" pc="268435550" symbol="&lt;globals/GBGVarvet25View/&lt;&gt;loadAppropriateBackground&gt;"/>
+<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="5" lineNum="68" parent="globals/GBGVarvet25View" pc="268435561" symbol="&lt;globals/GBGVarvet25View/&lt;&gt;loadAppropriateBackground&gt;"/>
+<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="5" lineNum="69" parent="globals/GBGVarvet25View" pc="268435604" symbol="&lt;globals/GBGVarvet25View/&lt;&gt;loadAppropriateBackground&gt;"/>
+<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="5" lineNum="70" parent="globals/GBGVarvet25View" pc="268435615" symbol="&lt;globals/GBGVarvet25View/&lt;&gt;loadAppropriateBackground&gt;"/>
+<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="5" lineNum="71" parent="globals/GBGVarvet25View" pc="268435658" symbol="&lt;globals/GBGVarvet25View/&lt;&gt;loadAppropriateBackground&gt;"/>
+<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="5" lineNum="72" parent="globals/GBGVarvet25View" pc="268435669" symbol="&lt;globals/GBGVarvet25View/&lt;&gt;loadAppropriateBackground&gt;"/>
+<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="5" lineNum="73" parent="globals/GBGVarvet25View" pc="268435712" symbol="&lt;globals/GBGVarvet25View/&lt;&gt;loadAppropriateBackground&gt;"/>
+<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="5" lineNum="74" parent="globals/GBGVarvet25View" pc="268435723" symbol="&lt;globals/GBGVarvet25View/&lt;&gt;loadAppropriateBackground&gt;"/>
+<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="5" lineNum="76" parent="globals/GBGVarvet25View" pc="268435766" symbol="&lt;globals/GBGVarvet25View/&lt;&gt;loadAppropriateBackground&gt;"/>
+<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="6" lineNum="132" parent="globals/GBGVarvet25View" pc="268435806" symbol="&lt;globals/GBGVarvet25View/&lt;&gt;drawCountdownDisplay&gt;"/>
+<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="6" lineNum="134" parent="globals/GBGVarvet25View" pc="268435810" symbol="&lt;globals/GBGVarvet25View/&lt;&gt;drawCountdownDisplay&gt;"/>
+<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="6" lineNum="137" parent="globals/GBGVarvet25View" pc="268435825" symbol="&lt;globals/GBGVarvet25View/&lt;&gt;drawCountdownDisplay&gt;"/>
+<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="6" lineNum="138" parent="globals/GBGVarvet25View" pc="268435844" symbol="&lt;globals/GBGVarvet25View/&lt;&gt;drawCountdownDisplay&gt;"/>
+<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="6" lineNum="139" parent="globals/GBGVarvet25View" pc="268435854" symbol="&lt;globals/GBGVarvet25View/&lt;&gt;drawCountdownDisplay&gt;"/>
+<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="6" lineNum="140" parent="globals/GBGVarvet25View" pc="268435873" symbol="&lt;globals/GBGVarvet25View/&lt;&gt;drawCountdownDisplay&gt;"/>
+<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="6" lineNum="141" parent="globals/GBGVarvet25View" pc="268435883" symbol="&lt;globals/GBGVarvet25View/&lt;&gt;drawCountdownDisplay&gt;"/>
+<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="6" lineNum="142" parent="globals/GBGVarvet25View" pc="268435902" symbol="&lt;globals/GBGVarvet25View/&lt;&gt;drawCountdownDisplay&gt;"/>
+<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="6" lineNum="144" parent="globals/GBGVarvet25View" pc="268435921" symbol="&lt;globals/GBGVarvet25View/&lt;&gt;drawCountdownDisplay&gt;"/>
+<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="6" lineNum="147" parent="globals/GBGVarvet25View" pc="268435943" symbol="&lt;globals/GBGVarvet25View/&lt;&gt;drawCountdownDisplay&gt;"/>
+<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="6" lineNum="155" parent="globals/GBGVarvet25View" pc="268436009" symbol="&lt;globals/GBGVarvet25View/&lt;&gt;drawCountdownDisplay&gt;"/>
+<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="6" lineNum="164" parent="globals/GBGVarvet25View" pc="268436064" symbol="&lt;globals/GBGVarvet25View/&lt;&gt;drawCountdownDisplay&gt;"/>
+<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="6" lineNum="170" parent="globals/GBGVarvet25View" pc="268436164" symbol="&lt;globals/GBGVarvet25View/&lt;&gt;drawCountdownDisplay&gt;"/>
+<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="6" lineNum="178" parent="globals/GBGVarvet25View" pc="268436216" symbol="&lt;globals/GBGVarvet25View/&lt;&gt;drawCountdownDisplay&gt;"/>
+<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="7" lineNum="96" parent="globals/GBGVarvet25View" pc="268436272" symbol="&lt;globals/GBGVarvet25View/&lt;&gt;checkIfRaceDay&gt;"/>
+<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="7" lineNum="97" parent="globals/GBGVarvet25View" pc="268436274" symbol="&lt;globals/GBGVarvet25View/&lt;&gt;checkIfRaceDay&gt;"/>
+<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="10" lineNum="100" parent="globals/GBGVarvet25View" pc="268436300" symbol="&lt;globals/GBGVarvet25View/&lt;&gt;drawRaceDayDisplay&gt;"/>
+<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="10" lineNum="101" parent="globals/GBGVarvet25View" pc="268436304" symbol="&lt;globals/GBGVarvet25View/&lt;&gt;drawRaceDayDisplay&gt;"/>
+<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="10" lineNum="103" parent="globals/GBGVarvet25View" pc="268436321" symbol="&lt;globals/GBGVarvet25View/&lt;&gt;drawRaceDayDisplay&gt;"/>
+<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="10" lineNum="104" parent="globals/GBGVarvet25View" pc="268436341" symbol="&lt;globals/GBGVarvet25View/&lt;&gt;drawRaceDayDisplay&gt;"/>
+<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="10" lineNum="105" parent="globals/GBGVarvet25View" pc="268436381" symbol="&lt;globals/GBGVarvet25View/&lt;&gt;drawRaceDayDisplay&gt;"/>
+<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="10" lineNum="108" parent="globals/GBGVarvet25View" pc="268436394" symbol="&lt;globals/GBGVarvet25View/&lt;&gt;drawRaceDayDisplay&gt;"/>
+<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="10" lineNum="110" parent="globals/GBGVarvet25View" pc="268436416" symbol="&lt;globals/GBGVarvet25View/&lt;&gt;drawRaceDayDisplay&gt;"/>
+<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="10" lineNum="118" parent="globals/GBGVarvet25View" pc="268436471" symbol="&lt;globals/GBGVarvet25View/&lt;&gt;drawRaceDayDisplay&gt;"/>
+<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="11" lineNum="59" parent="globals/GBGVarvet25View" pc="268436539" symbol="onLayout"/>
+<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="11" lineNum="60" parent="globals/GBGVarvet25View" pc="268436541" symbol="onLayout"/>
+<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="11" lineNum="61" parent="globals/GBGVarvet25View" pc="268436582" symbol="onLayout"/>
+<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="11" lineNum="62" parent="globals/GBGVarvet25View" pc="268436601" symbol="onLayout"/>
+<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="11" lineNum="63" parent="globals/GBGVarvet25View" pc="268436620" symbol="onLayout"/>
+<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="12" lineNum="187" parent="globals/GBGVarvet25View" pc="268436648" symbol="&lt;globals/GBGVarvet25View/&lt;&gt;drawCurrentTime&gt;"/>
+<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="12" lineNum="188" parent="globals/GBGVarvet25View" pc="268436652" symbol="&lt;globals/GBGVarvet25View/&lt;&gt;drawCurrentTime&gt;"/>
+<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="12" lineNum="189" parent="globals/GBGVarvet25View" pc="268436669" symbol="&lt;globals/GBGVarvet25View/&lt;&gt;drawCurrentTime&gt;"/>
+<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="12" lineNum="194" parent="globals/GBGVarvet25View" pc="268436757" symbol="&lt;globals/GBGVarvet25View/&lt;&gt;drawCurrentTime&gt;"/>
+<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="13" lineNum="127" parent="globals/GBGVarvet25View" pc="268436810" symbol="&lt;globals/GBGVarvet25View/&lt;&gt;getTimeRemaining&gt;"/>
+<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="13" lineNum="128" parent="globals/GBGVarvet25View" pc="268436814" symbol="&lt;globals/GBGVarvet25View/&lt;&gt;getTimeRemaining&gt;"/>
+<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="13" lineNum="129" parent="globals/GBGVarvet25View" pc="268436835" symbol="&lt;globals/GBGVarvet25View/&lt;&gt;getTimeRemaining&gt;"/>
+<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="15" lineNum="27" parent="globals/GBGVarvet25View" pc="268436847" symbol="initialize"/>
+<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="15" lineNum="28" parent="globals/GBGVarvet25View" pc="268436849" symbol="initialize"/>
+<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="15" lineNum="31" parent="globals/GBGVarvet25View" pc="268436867" symbol="initialize"/>
+<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="15" lineNum="40" parent="globals/GBGVarvet25View" pc="268436980" symbol="initialize"/>
+<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="15" lineNum="52" parent="globals/GBGVarvet25View" pc="268437111" symbol="initialize"/>
+<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="15" lineNum="53" parent="globals/GBGVarvet25View" pc="268437124" symbol="initialize"/>
+<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="16" lineNum="79" parent="globals/GBGVarvet25View" pc="268437148" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="16" lineNum="80" parent="globals/GBGVarvet25View" pc="268437152" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="16" lineNum="81" parent="globals/GBGVarvet25View" pc="268437174" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="16" lineNum="82" parent="globals/GBGVarvet25View" pc="268437186" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="16" lineNum="84" parent="globals/GBGVarvet25View" pc="268437216" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="16" lineNum="85" parent="globals/GBGVarvet25View" pc="268437233" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="16" lineNum="87" parent="globals/GBGVarvet25View" pc="268437248" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="16" lineNum="88" parent="globals/GBGVarvet25View" pc="268437253" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="16" lineNum="90" parent="globals/GBGVarvet25View" pc="268437270" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25View.mc" id="16" lineNum="93" parent="globals/GBGVarvet25View" pc="268437286" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25App.mc" id="17" lineNum="14" parent="globals/GBGVarvet25App" pc="268437301" symbol="onStart"/>
+<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25App.mc" id="18" lineNum="22" parent="globals/GBGVarvet25App" pc="268437304" symbol="getInitialView"/>
+<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25App.mc" id="18" lineNum="23" parent="globals/GBGVarvet25App" pc="268437306" symbol="getInitialView"/>
+<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25App.mc" id="19" lineNum="9" parent="globals/GBGVarvet25App" pc="268437347" symbol="initialize"/>
+<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25App.mc" id="19" lineNum="10" parent="globals/GBGVarvet25App" pc="268437349" symbol="initialize"/>
+<entry filename="C:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\source\\GBGVarvet25App.mc" id="20" lineNum="18" parent="globals/GBGVarvet25App" pc="268437368" symbol="onStop"/>
+<entry filename="c:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\bin\\gen\\006-B3077-00\\source\\Rez.mcgen" id="21" lineNum="18" parent="globals/Rez/Layouts" pc="268437371" symbol="WatchFace"/>
+<entry filename="c:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\bin\\gen\\006-B3077-00\\source\\Rez.mcgen" id="21" lineNum="19" parent="globals/Rez/Layouts" pc="268437383" symbol="WatchFace"/>
+<entry filename="c:\\Users\\Jonassk\\develop\\Garmin\\watch_faces\\GBGVarvet2025\\bin\\gen\\006-B3077-00\\source\\Rez.mcgen" id="21" lineNum="21" parent="globals/Rez/Layouts" pc="268437518" symbol="WatchFace"/>
 </pcToLineNum>
 <symbolTable>
 <entry id="8388639" module="true" symbol="Graphics"/>
 <entry id="6" object="true" symbol="GBGVarvet25App"/>
+<entry id="9" method="true" symbol="&lt;globals/GBGVarvet25View/&lt;&gt;checkIfRaceDay&gt;"/>
 <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
-<entry field="true" id="14" symbol="lastUpdateTime"/>
 <entry field="true" id="8388938" symbol="month"/>
-<entry id="10" method="true" symbol="getLastSunday"/>
+<entry field="true" id="19" symbol="&lt;globals/GBGVarvet25View/&lt;&gt;targetDate&gt;"/>
 <entry field="true" id="8388611" module="true" symbol="Toybox"/>
-<entry field="true" id="21" symbol="Background_454"/>
-<entry field="true" id="11" symbol="inspirationalMessages"/>
-<entry field="true" id="23" symbol="AppName"/>
+<entry field="true" id="8" symbol="&lt;globals/GBGVarvet25View/&lt;&gt;background&gt;"/>
+<entry field="true" id="26" symbol="Background_454"/>
+<entry field="true" id="28" symbol="AppName"/>
 <entry id="8389339" symbol="second"/>
 <entry id="5" module="true" symbol="globals/Rez/Strings"/>
+<entry field="true" id="10" symbol="&lt;globals/GBGVarvet25View/&lt;&gt;currentMessageIndex&gt;"/>
+<entry field="true" id="20" symbol="&lt;globals/GBGVarvet25View/&lt;&gt;width&gt;"/>
 <entry id="8389338" symbol="minute"/>
 <entry id="8388648" module="true" symbol="WatchUi"/>
+<entry id="18" method="true" symbol="&lt;globals/GBGVarvet25View/&lt;&gt;loadAppropriateBackground&gt;"/>
 <entry id="2" module="true" symbol="globals/Rez"/>
+<entry id="14" method="true" symbol="&lt;globals/GBGVarvet25View/&lt;&gt;getTimeRemaining&gt;"/>
 <entry id="8389124" method="true" symbol="onUpdate"/>
 <entry id="8389375" method="true" object="true" symbol="WatchFace"/>
 <entry field="true" id="8389065" symbol="locY"/>
 <entry field="true" id="8389064" symbol="locX"/>
+<entry field="true" id="16" symbol="&lt;globals/GBGVarvet25View/&lt;&gt;inspirationalMessages&gt;"/>
 <entry id="8388771" module="true" object="true" symbol="Drawables"/>
 <entry id="8389348" symbol="font"/>
-<entry id="13" method="true" symbol="isLeapYear"/>
+<entry field="true" id="17" symbol="&lt;globals/GBGVarvet25View/&lt;&gt;lastUpdateTime&gt;"/>
 <entry id="8389275" method="true" symbol="getApp"/>
-<entry field="true" id="20" symbol="Background_320"/>
+<entry field="true" id="25" symbol="Background_320"/>
 <entry id="4" module="true" symbol="globals/Rez/Layouts"/>
+<entry field="true" id="15" symbol="&lt;globals/GBGVarvet25View/&lt;&gt;height&gt;"/>
 <entry id="8389122" method="true" symbol="onLayout"/>
 <entry id="8389376" method="true" symbol="onEnterSleep"/>
 <entry field="true" id="8389063" symbol="identifier"/>
 <entry id="8389349" symbol="justification"/>
-<entry field="true" id="19" symbol="Background_280"/>
+<entry id="11" method="true" symbol="&lt;globals/GBGVarvet25View/&lt;&gt;drawCountdownDisplay&gt;"/>
+<entry field="true" id="24" symbol="Background_280"/>
 <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
-<entry field="true" id="18" symbol="Background_260"/>
-<entry field="true" id="17" symbol="Background_240"/>
-<entry field="true" id="15" symbol="targetDate"/>
-<entry field="true" id="8" symbol="currentMessageIndex"/>
+<entry field="true" id="23" symbol="Background_260"/>
+<entry field="true" id="22" symbol="Background_240"/>
 <entry id="8389377" method="true" symbol="onExitSleep"/>
 <entry id="8388644" module="true" symbol="System"/>
 <entry id="8388645" module="true" symbol="Time"/>
 <entry id="8388769" module="true" object="true" symbol="Rez"/>
+<entry id="12" method="true" symbol="&lt;globals/GBGVarvet25View/&lt;&gt;drawCurrentTime&gt;"/>
 <entry field="true" id="8388720" symbol="hour"/>
 <entry id="8388640" module="true" symbol="Lang"/>
-<entry field="true" id="22" symbol="LauncherIcon"/>
+<entry field="true" id="27" symbol="LauncherIcon"/>
 <entry id="8388610" symbol="statics"/>
 <entry id="8389123" method="true" symbol="onShow"/>
 <entry id="8389350" module="true" symbol="globals"/>
-<entry id="9" method="true" symbol="getDaysInMonth"/>
 <entry id="8388770" module="true" object="true" symbol="Strings"/>
 <entry id="8388702" method="true" symbol="initialize"/>
 <entry id="7" object="true" symbol="GBGVarvet25View"/>
 <entry id="8389279" method="true" symbol="onStart"/>
 <entry id="8388641" module="true" symbol="Math"/>
-<entry id="12" method="true" symbol="isDST"/>
 <entry id="8389280" method="true" symbol="getInitialView"/>
 <entry id="8389281" method="true" symbol="onStop"/>
 <entry id="8389347" symbol="color"/>
 <entry field="true" id="8388939" symbol="day"/>
 <entry field="true" id="8388940" symbol="year"/>
-<entry id="16" module="true" symbol="Layouts"/>
-<entry id="8389125" method="true" symbol="onHide"/>
+<entry id="21" module="true" symbol="Layouts"/>
+<entry id="13" method="true" symbol="&lt;globals/GBGVarvet25View/&lt;&gt;drawRaceDayDisplay&gt;"/>
 <entry id="8388635" module="true" symbol="Application"/>
 </symbolTable>
 <localVars>
-<entry arg="true" endPc="268435763" name="year" stackId="1" startPc="268435548"/>
-<entry arg="true" endPc="268435763" name="month" stackId="2" startPc="268435548"/>
-<entry endPc="268435763" name="days" stackId="3" startPc="268435552"/>
-<entry arg="true" endPc="268435807" name="dc" stackId="1" startPc="268435764"/>
-<entry endPc="268436013" name="now" stackId="1" startPc="268435812"/>
-<entry endPc="268435949" name="lastSunday" stackId="2" startPc="268435912"/>
-<entry endPc="268436007" name="lastSunday" stackId="3" startPc="268435970"/>
-<entry arg="true" endPc="268436070" name="year" stackId="1" startPc="268436014"/>
-<entry arg="true" endPc="268436237" name="year" stackId="1" startPc="268436071"/>
-<entry arg="true" endPc="268436237" name="month" stackId="2" startPc="268436071"/>
-<entry endPc="268436237" name="lastDay" stackId="3" startPc="268436075"/>
-<entry endPc="268436234" name="day" stackId="4" startPc="268436110"/>
-<entry endPc="268436221" name="moment" stackId="5" startPc="268436110"/>
-<entry endPc="268436221" name="info" stackId="6" startPc="268436110"/>
-<entry arg="true" endPc="268438529" name="dc" stackId="1" startPc="268436539"/>
-<entry endPc="268438528" name="width" stackId="2" startPc="268436543"/>
-<entry endPc="268438528" name="height" stackId="3" startPc="268436543"/>
-<entry endPc="268438528" name="background" stackId="4" startPc="268436543"/>
-<entry endPc="268438528" name="utcMoment" stackId="5" startPc="268436543"/>
-<entry endPc="268438528" name="utcInfo" stackId="6" startPc="268436543"/>
-<entry endPc="268438528" name="stockholmOffsetHours" stackId="7" startPc="268436543"/>
-<entry endPc="268438528" name="localHour" stackId="8" startPc="268436543"/>
-<entry endPc="268438528" name="localDay" stackId="9" startPc="268436543"/>
-<entry endPc="268438528" name="localMonth" stackId="10" startPc="268436543"/>
-<entry endPc="268438528" name="localYear" stackId="11" startPc="268436543"/>
-<entry endPc="268438528" name="daysInCurrentMonth" stackId="12" startPc="268436543"/>
-<entry endPc="268438528" name="currentTimeStockholm" stackId="13" startPc="268436543"/>
-<entry endPc="268438528" name="targetInfo" stackId="14" startPc="268436543"/>
-<entry endPc="268438528" name="targetLocal" stackId="15" startPc="268436543"/>
-<entry endPc="268438528" name="duration" stackId="16" startPc="268436543"/>
-<entry endPc="268438528" name="timeRemaining" stackId="17" startPc="268436543"/>
-<entry endPc="268438528" name="currentInfo" stackId="18" startPc="268436543"/>
-<entry endPc="268438528" name="isRaceDay" stackId="19" startPc="268436543"/>
-<entry endPc="268437815" name="currentTimer" stackId="20" startPc="268437548"/>
-<entry endPc="268438343" name="secondsInDay" stackId="21" startPc="268437819"/>
-<entry endPc="268438343" name="secondsInHour" stackId="22" startPc="268437819"/>
-<entry endPc="268438343" name="secondsInMinute" stackId="23" startPc="268437819"/>
-<entry endPc="268438343" name="totalSeconds" stackId="24" startPc="268437819"/>
-<entry endPc="268438343" name="days" stackId="25" startPc="268437819"/>
-<entry endPc="268438343" name="hours" stackId="26" startPc="268437819"/>
-<entry endPc="268438343" name="minutes" stackId="27" startPc="268437819"/>
-<entry endPc="268438343" name="seconds" stackId="28" startPc="268437819"/>
-<entry endPc="268438343" name="timeString" stackId="29" startPc="268437819"/>
-<entry endPc="268438343" name="labelsString" stackId="30" startPc="268437819"/>
-<entry endPc="268438528" name="clockTime" stackId="31" startPc="268436543"/>
-<entry endPc="268438528" name="timeString" stackId="32" startPc="268436543"/>
-<entry arg="true" endPc="268438763" name="dc" stackId="1" startPc="268438600"/>
-<entry endPc="268438763" name="rez_cmp_local_text_TimeLabel" stackId="2" startPc="268438612"/>
+<entry arg="true" endPc="268435805" name="width" stackId="1" startPc="268435548"/>
+<entry arg="true" endPc="268436271" name="dc" stackId="1" startPc="268435806"/>
+<entry arg="true" endPc="268436271" name="currentTime" stackId="2" startPc="268435806"/>
+<entry endPc="268436270" name="timeRemaining" stackId="3" startPc="268435810"/>
+<entry endPc="268436270" name="days" stackId="4" startPc="268435810"/>
+<entry endPc="268436270" name="remainingSeconds" stackId="5" startPc="268435810"/>
+<entry endPc="268436270" name="hours" stackId="6" startPc="268435810"/>
+<entry endPc="268436270" name="minutes" stackId="7" startPc="268435810"/>
+<entry endPc="268436270" name="seconds" stackId="8" startPc="268435810"/>
+<entry endPc="268436270" name="timeString" stackId="9" startPc="268435810"/>
+<entry arg="true" endPc="268436299" name="currentTime" stackId="1" startPc="268436272"/>
+<entry arg="true" endPc="268436538" name="dc" stackId="1" startPc="268436300"/>
+<entry endPc="268436537" name="currentTimer" stackId="2" startPc="268436304"/>
+<entry arg="true" endPc="268436647" name="dc" stackId="1" startPc="268436539"/>
+<entry arg="true" endPc="268436809" name="dc" stackId="1" startPc="268436648"/>
+<entry endPc="268436808" name="clockTime" stackId="2" startPc="268436652"/>
+<entry endPc="268436808" name="timeString" stackId="3" startPc="268436652"/>
+<entry arg="true" endPc="268436846" name="currentTime" stackId="1" startPc="268436810"/>
+<entry endPc="268436846" name="duration" stackId="2" startPc="268436814"/>
+<entry arg="true" endPc="268437300" name="dc" stackId="1" startPc="268437148"/>
+<entry endPc="268437299" name="currentTime" stackId="2" startPc="268437152"/>
+<entry endPc="268437299" name="isRaceDay" stackId="3" startPc="268437152"/>
+<entry arg="true" endPc="268437534" name="dc" stackId="1" startPc="268437371"/>
+<entry endPc="268437534" name="rez_cmp_local_text_TimeLabel" stackId="2" startPc="268437383"/>
 </localVars>
-<deviceInfo partNumber="006-B3076-00"/>
+<deviceInfo partNumber="006-B3077-00"/>
 <annotations>
 <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
 <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="Background_320"/>
@@ -250,11 +184,11 @@
 <dataEntryOffsetMappings>
 <dataEntry label="globals" offset="63" parentId="" symbolId="globals" type="module"/>
 <dataEntry label="globals/GBGVarvet25View" offset="134" parentId="globals" symbolId="GBGVarvet25View" type="class"/>
-<dataEntry label="globals/Rez" offset="293" parentId="globals" symbolId="Rez" type="module"/>
-<dataEntry label="globals/GBGVarvet25App" offset="348" parentId="globals" symbolId="GBGVarvet25App" type="class"/>
-<dataEntry label="globals/Rez/Drawables" offset="419" parentId="Rez" symbolId="Drawables" type="module"/>
-<dataEntry label="globals/Rez/Layouts" offset="498" parentId="Rez" symbolId="Layouts" type="module"/>
-<dataEntry label="globals/Rez/Strings" offset="537" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry label="globals/Rez" offset="325" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry label="globals/GBGVarvet25App" offset="380" parentId="globals" symbolId="GBGVarvet25App" type="class"/>
+<dataEntry label="globals/Rez/Drawables" offset="451" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry label="globals/Rez/Layouts" offset="530" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry label="globals/Rez/Strings" offset="569" parentId="Rez" symbolId="Strings" type="module"/>
 </dataEntryOffsetMappings>
 <functions>
 <functionEntry accessMode="public" endPc="268435478" name="&lt;init&gt;" parent="GBGVarvet25View" startPc="268435460">
@@ -269,43 +203,48 @@
 <functionEntry accessMode="public" endPc="268435547" name="&lt;init&gt;" parent="GBGVarvet25App" startPc="268435529">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" name="onExitSleep" parent="GBGVarvet25View">
+<functionEntry accessMode="private" endPc="268435805" name="&lt;globals/GBGVarvet25View/&lt;&gt;loadAppropriateBackground&gt;" parent="GBGVarvet25View" startPc="268435548">
+<param id="width"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268435763" name="getDaysInMonth" parent="GBGVarvet25View" startPc="268435548">
-<param id="year"/>
-<param id="month"/>
+<functionEntry accessMode="private" endPc="268436271" name="&lt;globals/GBGVarvet25View/&lt;&gt;drawCountdownDisplay&gt;" parent="GBGVarvet25View" startPc="268435806">
+<param id="dc"/>
+<param id="currentTime"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="private" endPc="268436299" name="&lt;globals/GBGVarvet25View/&lt;&gt;checkIfRaceDay&gt;" parent="GBGVarvet25View" startPc="268436272">
+<param id="currentTime"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onExitSleep" parent="GBGVarvet25View">
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="onShow" parent="GBGVarvet25View">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268435807" name="onLayout" parent="GBGVarvet25View" startPc="268435764">
+<functionEntry accessMode="private" endPc="268436538" name="&lt;globals/GBGVarvet25View/&lt;&gt;drawRaceDayDisplay&gt;" parent="GBGVarvet25View" startPc="268436300">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436013" name="isDST" parent="GBGVarvet25View" startPc="268435808">
+<functionEntry accessMode="public" endPc="268436647" name="onLayout" parent="GBGVarvet25View" startPc="268436539">
+<param id="dc"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436070" name="isLeapYear" parent="GBGVarvet25View" startPc="268436014">
-<param id="year"/>
+<functionEntry accessMode="private" endPc="268436809" name="&lt;globals/GBGVarvet25View/&lt;&gt;drawCurrentTime&gt;" parent="GBGVarvet25View" startPc="268436648">
+<param id="dc"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436237" name="getLastSunday" parent="GBGVarvet25View" startPc="268436071">
-<param id="year"/>
-<param id="month"/>
+<functionEntry accessMode="private" endPc="268436846" name="&lt;globals/GBGVarvet25View/&lt;&gt;getTimeRemaining&gt;" parent="GBGVarvet25View" startPc="268436810">
+<param id="currentTime"/>
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="onEnterSleep" parent="GBGVarvet25View">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436538" name="initialize" parent="GBGVarvet25View" startPc="268436238">
+<functionEntry accessMode="public" endPc="268437147" name="initialize" parent="GBGVarvet25View" startPc="268436847">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" name="onHide" parent="GBGVarvet25View">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" endPc="268438529" name="onUpdate" parent="GBGVarvet25View" startPc="268436539">
+<functionEntry accessMode="public" endPc="268437300" name="onUpdate" parent="GBGVarvet25View" startPc="268437148">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
@@ -318,21 +257,21 @@
 <functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268438532" name="onStart" parent="GBGVarvet25App" startPc="268438530">
+<functionEntry accessMode="public" endPc="268437303" name="onStart" parent="GBGVarvet25App" startPc="268437301">
 <param id="state"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268438575" name="getInitialView" parent="GBGVarvet25App" startPc="268438533">
+<functionEntry accessMode="public" endPc="268437346" name="getInitialView" parent="GBGVarvet25App" startPc="268437304">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268438596" name="initialize" parent="GBGVarvet25App" startPc="268438576">
+<functionEntry accessMode="public" endPc="268437367" name="initialize" parent="GBGVarvet25App" startPc="268437347">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268438599" name="onStop" parent="GBGVarvet25App" startPc="268438597">
+<functionEntry accessMode="public" endPc="268437370" name="onStop" parent="GBGVarvet25App" startPc="268437368">
 <param id="state"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268438763" name="WatchFace" parent="Layouts" startPc="268438600">
+<functionEntry accessMode="public" endPc="268437534" name="WatchFace" parent="Layouts" startPc="268437371">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
